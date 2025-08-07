@@ -38,7 +38,7 @@ DeviceFileEvents
 | order by Timestamp desc
 | project Timestamp, DeviceName, ActionType, FileName, FolderPath, SHA256, Account = InitiatingProcessAccountName
 ```
-<img width="1212" alt="image" src="">
+<img width="1212" alt="image" src="https://github.com/user-attachments/assets/4168207d-2e11-49cc-9ffd-db7cc0de80a1" />
 
 ---
 
@@ -54,7 +54,7 @@ DeviceProcessEvents
 | where ProcessCommandLine contains "tor-browser-windows-x86_64-portable-14.5.5.exe  /S"
 | project Timestamp, DeviceName, AccountName, ActionType, FileName, FolderPath, SHA256, ProcessCommandLine
 ```
-<img width="1212" alt="image" src="">
+<img width="1438" height="109" alt="Screenshot 2025-08-07 at 7 53 54 AM" src="https://github.com/user-attachments/assets/846e50fc-3d48-48bb-864d-ee38eba1caf7" />
 
 ---
 
@@ -71,7 +71,7 @@ DeviceProcessEvents
 | project Timestamp, DeviceName, AccountName, ActionType, FileName, FolderPath, SHA256, ProcessCommandLine
 | order by Timestamp desc
 ```
-<img width="1212" alt="image" src="">
+<img width="1450" height="476" alt="Screenshot 2025-08-07 at 7 55 44 AM" src="https://github.com/user-attachments/assets/14fb2642-94c0-4a45-a35f-92f26ffc9a7c" />
 
 ---
 
@@ -90,7 +90,7 @@ DeviceNetworkEvents
 | project Timestamp, DeviceName, InitiatingProcessAccountName, ActionType, RemoteIP, RemotePort, RemoteUrl, InitiatingProcessFileName, InitiatingProcessFolderPath
 | order by Timestamp desc
 ```
-<img width="1212" alt="image" src="">
+<img width="1445" height="414" alt="Screenshot 2025-08-07 at 7 58 12 AM" src="https://github.com/user-attachments/assets/b9fa8cb6-b22e-4d98-9779-96cc9e95e169" />
 
 ---
 
@@ -132,8 +132,8 @@ DeviceNetworkEvents
 ### 5. Additional Network Connections - TOR Browser Activity
 
 - **Timestamps:**
-  - `2024-11-08T22:18:0(FILL IN INFORMATION)` - Connected to `194.164.169.85` on port `443`.
-  - `2024-11-08T22:18:16Z(FILL IN INFORMATION)` - Local connection to `127.0.0.1` on port `9150`.
+  - `2025-08-06T12:10:14.2297003Z` - Connected to `89.58.32.67` on port `443`.
+  - `2025-08-06T12:09:11.8810926Z` - Local connection to `62.210.205.228` on port `80`.
 - **Event:** Additional TOR network connections were established, indicating ongoing activity by user "CyberBunny" through the TOR browser.
 - **Action:** Multiple successful connections detected.
 - **Significance:** Confirms Tor network communication and likely anonymized browsing behavior.
