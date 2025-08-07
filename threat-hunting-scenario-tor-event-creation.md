@@ -76,7 +76,7 @@ DeviceFileEvents
 
 ## Created By:
 - **Author Name**: Sam McDonald
-- **Author Contact**: https://www.linkedin.com/in/
+- **Author Contact**: https://www.linkedin.com/in/sam-m-232902a
 - **Date**: August 6, 2025
 
 ## Validated By:
