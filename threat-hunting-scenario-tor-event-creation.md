@@ -75,9 +75,9 @@ DeviceFileEvents
 ---
 
 ## Created By:
-- **Author Name**: 
+- **Author Name**: Sam McDonald
 - **Author Contact**: https://www.linkedin.com/in/
-- **Date**: 
+- **Date**: August 6, 2025
 
 ## Validated By:
 - **Reviewer Name**: 
@@ -94,4 +94,4 @@ DeviceFileEvents
 ## Revision History:
 | **Version** | **Changes**                   | **Date**         | **Modified By**   |
 |-------------|-------------------------------|------------------|-------------------|
-| 1.0         | Initial draft                  | ``  | ``   
+| 1.0         | Initial draft                  | `August 1, 2025`  | `Sam McDonald`   
