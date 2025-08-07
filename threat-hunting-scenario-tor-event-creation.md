@@ -94,4 +94,4 @@ DeviceFileEvents
 ## Revision History:
 | **Version** | **Changes**                   | **Date**         | **Modified By**   |
 |-------------|-------------------------------|------------------|-------------------|
-| 1.0         | Initial draft                  | `August 1, 2025`  | `Sam McDonald`   
+| 1.0         | Initial draft                  | `August 7, 2025`  | `Sam McDonald`   
